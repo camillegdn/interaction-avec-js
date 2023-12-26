@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>poudlard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="blasontitre">
+            <img class="blason" src="img/Poudlard_Blason.webp" alt="oops...nous avons un problème">
+            <h1>Quelle est ta maison à Poudlard ?</h1>
+            <img class="blason" src="img/Poudlard_Blason.webp" alt="oops...nous avons un problème">
+        </div>
+
+        <div class="menu-burger">
+            <div class="burger-icon" id="burger-icon">
+                <img id="bouton-burger" src="img/bouton hp.png" alt="déso pas déso">
+            </div>
+            <!--Menu de navigation-->
+            <ul class="menu" id="menu">
+                <li><a href="file:///Users/camille/Desktop/IIM/A1/code/Site%20&%20interction%20JS/ex_final/formulaire%20inscription/index.html">Inscription</a></li>
+                <li><a href="file:///Users/camille/Desktop/IIM/A1/code/Site%20&%20interction%20JS/ex_final/dark%20mode/index.html">Color Mode</a></li>
+                <li><a href="file:///Users/camille/Desktop/IIM/A1/code/Site%20&%20interction%20JS/ex_final/page_princ/index.html">Menu principal</a></li>
+                <li><a href="file:///Users/camille/Desktop/IIM/A1/code/Site%20&%20interction%20JS/ex_final/cartes/index.html">Mes Cartes</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+    </header>    
+    
+    <div class="princ">
+        <nav>
+            <h2 id="titrelien">Retrouver ici les liens pour vous les Potterheads</h2>
+            <p><a class="liens" href="https://www.wizardingworld.com/">Wizarding World</a></p>
+            <p><a class="liens" href="https://harrypottershop.co.uk/pages/platform934?gad_source=1&gclid=CjwKCAiAxreqBhAxEiwAfGfndKJqvOnexaS_3fNUTh-mrRixjwGheFKq4kXiwh3dM8m7m5KYE_cnSRoCb18QAvD_BwE&gclsrc=aw.ds">Harry Potter Shop</a></p>
+            <p><a class="liens" href="https://www.lego.com/fr-fr/themes/harry-potter">Lego Harry Potter</a></p>
+            <p><a class="liens" href="https://www.google.com/search?q=le+repaire+des+sorciers&sca_esv=581173241&sxsrf=AM9HkKkaYhWH_wLk_030-iH6BaRILvhd5A%3A1699616310844&ei=NhZOZdOTM7-fkdUPzre70AI&ved=0ahUKEwjThtmTrLmCAxW_T6QEHc7bDioQ4dUDCBA&uact=5&oq=le+repaire+des+sorciers&gs_lp=Egxnd3Mtd2l6LXNlcnAiF2xlIHJlcGFpcmUgZGVzIHNvcmNpZXJzMgQQIxgnMgcQABiKBRhDMgsQLhiABBjHARivATILEC4YrwEYxwEYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgsQLhiABBjHARivATILEC4YrwEYxwEYgARIswtQqQRYqQRwAXgBkAEAmAFwoAFwqgEDMC4xuAEDyAEA-AEBwgIKEAAYRxjWBBiwA-IDBBgAIEGIBgGQBgg&sclient=gws-wiz-serp#vhid=/g/11scl9tjtv&vssid=lcl">Boutique, Repaire des Sorciers, la plus proche de chez toi</a></p>
+        </nav>
+        <main>
+            <h2>Différents modes</h2>
+            <button id="boutton">Changer la couleur ici</button>
+            
+        </main>
+        <aside>
+            <h2> Les fiertés des maisons !</h2>
+            <section>
+                <h3 class="maisons">Poufsouffle</h3>
+                <img id="cd" src="img/cédric diggory.jpeg" alt="">
+                <h4 class="titre">Cédric Diggory</h4>
+                <p class="description">Vous ne connaissez surement pas un sorcier qui allie aussi bien charisme et savoir. </p>
+            </section>
+            <section>
+                <h3 class="maisons">Serdaigle</h3>
+                <img id="ll" src="img/luna lovegood.jpeg" alt="oops...nous avons un problème">
+                <h4 class="titre">Luna Lovegood</h4>
+                <p class="description">Une sorcière aussi folle que créative, ses conseils sont les plus compliqués à comprendre mais si vous y arrivez la réponse sera devant vous. </p>
+            </section>
+            <section>
+                <h3 class="maisons">Serpentard</h3>
+                <img id="dm" src="img/drago malfoy.webp" alt="oops...nous avons un problème">
+                <h4 class="titre">Drago Malfoy</h4>
+                <p class="description">Un garçon tourmenté par ses parents mais qui n'est pas méchant. On ne lui a pas appris la différence entre le mal et le bien.</p>
+            </section>
+            <section>
+                <h3 class="maisons">Gryffondor</h3>
+                <img id="hg" src="img/hermione granger.jpeg" alt="oops...nous avons un problème">
+                <h4 class="titre">Hermione Granger</h4>
+                <p class="description">Si vous lui poser un problème et qu'elle ne possède pas la réponse c'est surement que celui-ci n'a pas de solution. </p>
+            </section>
+        </aside>
+    </div>
+    <footer>
+        <h3 id="titreaq">D'autres Quizz</h3>
+        <div id="autrequizz">
+            <section>
+                <h5><a href="https://www.buzzfrance.fr/pottermore-test-patronus/">Quel patronus est le tiens?</a></h5>
+                <img class="imagef" src="img/Patronus.webp" alt="oops...nous avons un problème">
+            </section>
+            <section>
+                <h5><a href="https://www.buzzfrance.fr/test-harry-potter-baguette/">Comment sera ta baguette?</a></h5>
+                <img class="imagef" src="img/baguettes.jpeg" alt="oops...nous avons un problème">
+            </section>
+            <section>
+                <h5><a href="https://www.quizz.biz/quizz-121783.html">Quel balais est le mieux pour toi?</a></h5>
+                <img id="imagebalais" src="img/balais.webp" alt="oops...nous avons un problème">
+            </section>
+            <section>
+                <h5><a href="https://www.topito.com/quiz/quel-personnage-de-harry-potter-es-tu">Quel personnage te représente le plus?</a> </h5>
+                <img id="imageperso" src="img/personnages.jpeg" alt="oops...nous avons un problème">
+            </section>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,221 @@
+body{
+    max-height: 100vh;
+    max-width: 100vw;
+}
+
+header{
+    display: flex;
+    text-align: center;
+    width: 100vw;
+    height: 10vw;
+    flex-direction: row-reverse;
+
+}
+
+#blasontitre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.blason{
+    width: 8%;
+
+}
+
+.princ{
+    display: flex;
+    justify-content: space-between;
+}
+aside{
+    
+    width: 15vw;
+    text-align: center;
+}
+nav{
+    width: 13vw;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#cd{
+    width: 30%;
+}
+#ll{
+    width: 30%;
+}
+#dm{
+    width: 20%;
+}
+#hg{
+    width: 20%;
+}
+*{
+    background-color: rgb(38, 33, 33);
+    color: beige;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 60vw;
+    height: 60vh;
+}
+#question{
+    font-size: 150%;
+    margin: 2%;
+}
+
+.titre{
+    font-size: 70%;
+    
+}
+
+.maisons{
+    text-decoration: underline;
+}
+
+.description{
+    font-size: 45%;
+    
+}
+
+.imagef{
+    width: 30%;
+}
+
+#imageperso{
+    width: 50%;
+}
+#imagebalais{
+    width: 20%;
+}
+
+#titreaq{
+    text-align: center;
+}
+
+#autrequizz{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0.5%;
+}
+
+*{
+    margin: 0%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#quizzdebut{
+    text-align: center;
+    font-size: 245%;
+}
+
+#premierequestion{
+    font-size: 120%;
+}
+
+.menu-burger{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px; /*marge intérieur de l'élément*/
+    
+}
+
+.burger-icon{
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+/*style pour le Menu de navigation*/
+
+.menu {
+    list-style-type: none;
+    margin: 70px;
+    padding: 0;
+    display: none;
+    background-color: #333;
+
+}
+
+.menu li {
+    padding: 15px;
+    text-align: center;
+    background-color: #333;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu.active{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 95%;
+    background-color: #333;
+    z-index: 99;}
+
+#bouton-burger{
+    width: 15vw;
+    margin: 0;
+}
+
+@media all and (max-device-width: 700px){
+
+    main{
+        width: 80vw;
+        font-size: 60%;
+    }
+    aside{
+        width: 10vw;
+        font-size: 20%;
+    }
+    header{
+        height: 30%;
+        font-size: 30%;
+    }
+    nav{
+        width: 8vw;
+        font-size: 50%;
+    }
+    footer{
+        height: 30%;
+        font-size: 20%;
+    }
+    *{
+        margin: 0.5%;
+    }
+
+    .description{
+        font-size: 35%;
+    }
+
+    #titrelien{
+        font-size: 130%;
+        text-align: center;
+    }
+    .maisons{
+        color: rgb(164, 134, 15);
+    }
+
+    .liens{
+        color: rgb(164, 134, 15);
+    }
+    
+}
